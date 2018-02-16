@@ -1,0 +1,41 @@
+/* Body */
+body {
+	background-color: #222222;
+}
+
+/* Navbar */
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+ul.navbar {
+	background-color: #444444;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+    margin: 0;
+}
+li.navbaritem {
+	float: left;
+}
+a.navbarlink {
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	color: #FFFFFF;
+	padding: 15px;
+}
+
+/* Content */
+article {
+	background-color: #AAAAAA;
+	margin: auto;
+	width: 80%;
+}
+section {
+	margin: 15px;
+}
